@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EZ Meal</string>
+    <string name="action_register">Inscription</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_sign_in">Connecte-toi</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="add_favourite">Ajout aux favoris</string>
+    <string name="description">Description:</string>
+    <string name="do_recipe">Fais cette recette</string>
+    <string name="error_field_required">Ce champ est requis</string>
+    <string name="error_incorrect_password">Ce mot de passe est incorrect</string>
+    <string name="error_invalid_email">Cette adresse email est invalide</string>
+</resources> -->
+
+
+<resources>
+    <string name="app_name">EZ Meal</string>
+    <string name="title_activity_register">Inscription</string>
+    <string name="navigation_drawer_open">Ouvrir onglet navigation</string>
+    <string name="navigation_drawer_close">Fermer onglet navigation</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_login">EZ Meal</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connection</string>
+    <string name="action_register">Inscription</string>
+    <string name="action_sign_in_short">Connection</string>
+    <string name="error_invalid_email">Adresse email invalide</string>
+    <string name="error_invalid_password">Mot de passe trop court</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="error_field_required">Champ obligatoire</string>
+    <string name="permission_rationale">Accès aux contacts nécessaire pour pour la complétion de l\'email</string>
+    <string name="title_activity_settings">Paramètres</string>
+
+    <!-- Strings related to CreateAccount -->
+    <string name="hint_first_name">Prénom</string>
+    <string name="hint_last_name">Nom</string>
+    <string name="hint_mail_login">Email - Login</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_confirm_pass">Confirmer Mot de passe</string>
+    <string name="optional">OPTIONEL</string>
+    <string name="hint_pseudo">Pseudo</string>
+    <string name="hint_address">Adresse</string>
+    <string name="sex_male">Homme</string>
+    <string name="sex_female">Femme</string>
+    <string name="hint_birth">(dd-mm-yyyy)</string>
+    <string name="finish">Finir</string>
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Géneral</string>
+
+    <string name="pref_title_social_recommendations">Activer recommendations sociales</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Afficher nom</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Ajouter des amis à la conversation</string>
+    <string-array name="pref_example_list_titles">
+        <item>Toujours</item>
+        <item>Quand possible</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="recipe_menu">Menu :</string>
+    <string name="recipe_starters">Section :</string>
+    <string name="add_favourite">Ajouter aux favouris</string>
+    <string name="do_recipe">Faire cette recette</string>
+
+
+
+
+    <string name="pref_title_sync_frequency">Fréquence de synchronisation</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>3 heures</item>
+        <item>6 heures</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entrée 1</item>
+        <item>Entrée 2</item>
+        <item>Entrée 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">Réglages synchronisation système</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">"Notification nouveau message "</string>
+
+    <string name="pref_title_ringtone">Sonnerie</string>
+    <string name="pref_ringtone_silent">Silencieux</string>
+
+    <string name="pref_title_vibrate">Vibratation</string>
+    <string name="title_activity_afficher_recette">afficher_recette</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="etape">Etape : </string>
+    <string name="name">Name : </string>
+    <string name="description">Description : </string>
+    <string name="ingredient">Ingredients : </string>
+    <string name="temps">Temps de cuisson : </string>
+    <string name="prepa">Temps de préparation :</string>
+
+    <string-array name="langue">
+        <item>English</item>
+        <item>Francais</item>
+    </string-array>
+</resources>

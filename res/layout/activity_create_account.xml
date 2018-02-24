@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_login"
+    tools:context="be.lfsab1509.lfsab1509_theaccountant.Create_account">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:maxLines="1"
+                        android:singleLine="true">
+
+                        <EditText
+                            android:id="@+id/firstname_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:ems="10"
+                            android:hint="@string/hint_first_name"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:maxLines="1"
+                        android:singleLine="true">
+
+                        <EditText
+                            android:id="@+id/lastname_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ems="10"
+                            android:hint="@string/hint_last_name"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:maxLines="1"
+                        android:singleLine="true">
+
+                        <EditText
+                            android:id="@+id/date_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ems="10"
+                            android:hint="@string/hint_birth"
+                            android:inputType="date" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:layout_gravity="left"
+                    android:background="@android:drawable/editbox_background"
+                    android:maxLines="1"
+                    android:singleLine="true">
+
+                    <RadioGroup
+                        android:id="@+id/Choose_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/optional_register_form"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/colorWhite"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <RadioButton
+                            android:id="@+id/boxMale"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="17dp"
+                            android:checked="true"
+                            android:text="@string/sex_male" />
+
+                        <RadioButton
+                            android:id="@+id/boxFemale"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="21dp"
+                            android:text="@string/sex_female" />
+                    </RadioGroup>
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="53dp">
+
+                <Button
+                    android:id="@+id/finish_register_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorDarkRed"
+                    android:elevation="5dp"
+                    android:text="@string/finish"
+                    android:textColor="@color/colorWhite"
+                    tools:layout_editor_absoluteX="230dp"
+                    tools:layout_editor_absoluteY="415dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
